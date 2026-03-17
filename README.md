@@ -47,8 +47,8 @@ Si venías del proyecto original ([FRSR-Clean-Campus de aratx1](https://github.c
 
 ---
 
-    TODO LISTO LOCO !!! Nota: Esta extensión NO te elimina del curso. Si quieres volver a ver las materias ocultas borra el nombre de la materia en el archivo content.js y guarda el archivo. Elimina la extensión de tu navegador y después adjunta la nueva extensión actualizada al apartado de extensiones de tu navegador. Solo funciona para computadora
+   TODO LISTO LOCO !!! Nota: Esta extensión NO te elimina del curso. Si quieres volver a ver las materias ocultas borra el nombre de la materia en el archivo content.js y guarda el archivo. Elimina la extensión de tu navegador y después adjunta la nueva extensión actualizada al apartado de extensiones de tu navegador. Solo funciona para computadora
 
-ACTUALIZACIÓN OCULTANDO EL DROPDOWN DE "Mis cursos": https://github.com/aratx1/FRSR-Clean-Campus/tree/%2B_hide_dropdown
+ACTUALIZACIÓN OCULTANDO EL DROPDOWN DE "Mis cursos": ([HideDropdown](https://github.com/aratx1/FRSR-Clean-Campus/tree/%2B_hide_dropdown))
 
 Si tienes algún problema con la extensión o quieres sugerirme una idea puedes preguntar por Arantxa Reinoso en el grupo de UTN Chat General o Finales UTN. Si te sirvió la extensión considera seguirme y añadir a favoritos este código. Esta extensión es GRATUITA y de CODIGO ABIERTO pero tiene Derechos de Autor, si ves a alguien comerciando con este código reportamelo inmediatamente. Las donaciones son completamente opcionales y libre al criterio de quienes usan esta extensión. Alias: focas.nx
