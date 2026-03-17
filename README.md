@@ -37,16 +37,18 @@ Instalarla es súper fácil y seguro, ya que los archivos están en tu propia co
 
 ---
 
-## 🎨 Cómo ponerle tu propio ícono
+## 🚀 ¿Qué mejoró respecto a la extensión anterior?
 
-¿Quieres darle un toque personal? Actualmente la extensión usa una imagen transparente llamada `icon.png` que viene por defecto, pero puedes cambiarla por la imagen que prefieras.
+Si venías del proyecto original ([FRSR-Clean-Campus de aratx1](https://github.com/aratx1/FRSR-Clean-Campus/tree/e93c43d3b21fdba521023115410fcaa6c0cfe027)), notarás que esta versión funciona de una manera totalmente distinta y optimizada:
 
-**Para hacerlo:**
-1. Busca la imagen que te guste por internet (por ejemplo, el logo de la UTN o tu personaje favorito). 
-2. Lo ideal es que sea una imagen cuadrada (como las fotos de perfil de Instagram o WhatsApp).
-3. Guárdala en esta misma carpeta y asegúrate de nombrarla exactamente así: `icon.png` (reemplazando a la que ya existe).
-4. El navegador hará el resto del trabajo y la acomodará automáticamente.
+- **Cero Bugs Visuales:** La extensión anterior usaba un script (`content.js`) que borraba elementos visuales de la página una vez cargados. Esto causaba que la página de Moodle se "rompiera" al cargar cursos nuevos o que funcionara un poco mal. Ahora, simplemente usamos una API nativa del navegador (`declarativeNetRequest`) que te **redirige instantáneamente** a la vista clásica y original de Moodle sin tener que modificar la página.
+- **Sin necesidad de programar:** Antes tenías que abrir el código fuente, escribir a mano el nombre exacto de cada materia que querías ocultar y guardarlo. Ahora, al redirigirte a la vista `courses.php`, aprovechas el sistema nativo de Moodle.
+- **Compatibilidad Total:** La versión anterior estaba pensada solo para Chromium. Esta nueva versión se adaptó utilizando estándares modernos de "Manifest V3" y soporte para `gecko`, por lo cual es **100% compatible** tanto con navegadores Chromium (Chrome, Edge, Brave, etc.) como con **Firefox**, funcionando a la perfección en cualquiera de ellos.
 
 ---
 
-¡Eso es todo! Disfruta de una navegación más cómoda en tu campus virtual.
+    TODO LISTO LOCO !!! Nota: Esta extensión NO te elimina del curso. Si quieres volver a ver las materias ocultas borra el nombre de la materia en el archivo content.js y guarda el archivo. Elimina la extensión de tu navegador y después adjunta la nueva extensión actualizada al apartado de extensiones de tu navegador. Solo funciona para computadora
+
+ACTUALIZACIÓN OCULTANDO EL DROPDOWN DE "Mis cursos": https://github.com/aratx1/FRSR-Clean-Campus/tree/%2B_hide_dropdown
+
+Si tienes algún problema con la extensión o quieres sugerirme una idea puedes preguntar por Arantxa Reinoso en el grupo de UTN Chat General o Finales UTN. Si te sirvió la extensión considera seguirme y añadir a favoritos este código. Esta extensión es GRATUITA y de CODIGO ABIERTO pero tiene Derechos de Autor, si ves a alguien comerciando con este código reportamelo inmediatamente. Las donaciones son completamente opcionales y libre al criterio de quienes usan esta extensión. Alias: focas.nx
