@@ -4,8 +4,8 @@
   "version": "1.0",
   "description": "Redirige automáticamente de la vista principal a la lista de cursos ('courses.php') en el campus virtual de la FRSR UTN.",
   "icons": {
-    "16": "icon.png",
-    "48": "icon.png",
+    "16": "icon-16.png",
+    "48": "icon-48.png",
     "128": "icon.png"
   },
   "permissions": [
@@ -25,8 +25,16 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "moodle-redirect-frsr@utn.edu.ar",
-      "strict_min_version": "113.0"
+      "id": "frsr-clean-campus@nicosgandurra.github.io",
+      "strict_min_version": "142.0",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    },
+    "gecko_android": {
+      "strict_min_version": "142.0"
     }
   }
 }
